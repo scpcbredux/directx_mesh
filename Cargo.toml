@@ -1,0 +1,3 @@
+[workspace]
+members = ["directx_mesh", "bevy_directx_mesh"]
+resolver = "2"

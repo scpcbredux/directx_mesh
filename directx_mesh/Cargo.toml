@@ -1,0 +1,17 @@
+[package]
+name = "directx_mesh"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A parser for the legacy microsoft direct x mesh extension"
+homepage = "https://github.com/scpcbredux/directx_mesh/"
+documentation = "https://docs.rs/directx_mesh"
+repository = "https://github.com/scpcbredux/directx_mesh/"
+readme = "../README.md"
+
+[dependencies]
+thiserror = "1.0.63"
+
+[[example]]
+name = "read"
+path = "examples/read.rs"
